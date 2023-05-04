@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  /*font-family: Arial, sans-serif;*/
+  background-color: wheat;
+}
+
+
+.main{
+    width: 100%;
+}
+
+nav{          /*upper black bar*/
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a{                        /*mtr logo*/
+    font-size: 39px;
+    color: red;
+    font-weight: bold;
+    margin-left: 100px;
+
+
+}
+a{                  /*right side things*/
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 17px;
+    transition: 0.5s all ease;
+}
+
+
+ul{                     /*right side stuff*/
+    margin: 0px;
+    margin-right: 100px;
+}
+
+ul li{                  /*right side stuff*/
+    float: left;
+    padding: 0px 20px;
+    list-style: none;
+    
+}
+
+ul li a:hover{              /*right side stuff*/
+    color: white;  
+}
+
+
+
+/* Global styles */
+
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #F8F8F8;
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    font-size: 16px;
+  }
+  
+  nav ul li a.active {
+    color: #FEBD69;
+  }
+  
+  /* Menu styles */
+  section#menu {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  section#menu h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .menu-item {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu-item img {
+    width: 300px;
+    height: 200px;
+    margin-right: 40px;
+    object-fit: cover;
+  }
+  
+  .menu-content {
+    text-align: left;
+    width: 60%;
+  }
+  
+  .menu-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-content span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff0000;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .footer-content p {
+    margin-bottom: 10px;
+  }
